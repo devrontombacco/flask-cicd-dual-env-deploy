@@ -22,8 +22,8 @@ resource "aws_instance" "ec2_prod" {
   provider                    = aws.ireland
   key_name                    = "my_aws_key"
   associate_public_ip_address = true
-  #vpc_security_group_ids     = [aws_security_group. ]
-  iam_instance_profile = aws_iam_instance_profile.ec2_profile.name
+  vpc_security_group_ids      = [aws_security_group.sg_ec2.id]
+  iam_instance_profile        = aws_iam_instance_profile.ec2_profile.name
 
   tags = {
     Name = "ec2_prod"
@@ -36,8 +36,8 @@ resource "aws_instance" "ec2_dev" {
   subnet_id                   = aws_subnet.public_subnet.id
   key_name                    = "my_aws_key"
   associate_public_ip_address = true
-  #vpc_security_group_ids     = [aws_security_group. ]
-  iam_instance_profile = aws_iam_instance_profile.ec2_profile.name
+  vpc_security_group_ids      = [aws_security_group.sg_ec2.id]
+  iam_instance_profile        = aws_iam_instance_profile.ec2_profile.name
 
   tags = {
     Name = "ec2_dev"
