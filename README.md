@@ -14,9 +14,9 @@ This project showcases:
 
 ## Architecture
 
-![Screenshot](/docs/initial_setup.png.png)
-![Screenshot](/docs/CICD_pipeline.png.png)
-![Screenshot](/docs/flask_cicd_terraform_infra.png.png)
+![Screenshot](/docs/initial_setup.png)
+![Screenshot](/docs/CICD_pipeline.png)
+![Screenshot](/docs/flask_cicd_terraform_infra.png)
 
 ## Prerequisites before installation
 
@@ -182,5 +182,5 @@ This project is open source and available under the MIT License.
 
 Devron:
 
-- LinkedIn: [linkedin.com/in/devron-thompson](https://www.linkedin.com/in/devrontombacco/)
+- LinkedIn: [linkedin.com/in/devrontombacco](https://www.linkedin.com/in/devrontombacco/)
 - Github: [github.com/devrontombacco](https://github.com/devrontombacco)
