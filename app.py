@@ -1,12 +1,14 @@
 import os
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
 @app.route('/')
 def home():
     env = os.environ.get('ENVIRONMENT', 'UNKNOWN')
-    return f"Hello from {env} environment!"
+    #return f"Hello from {env} environment!"
+    render_template('index.html', environment=env)
+
 
 @app.route('/health')
 def health():
