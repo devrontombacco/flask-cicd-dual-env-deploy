@@ -1,11 +1,11 @@
 output "dev_public_ip" {
   description = "Public IP of the DEV EC2 instance"
-  value       = aws_instance.ec2_dev.public_ip
+  value       = aws_instance.dev.public_ip
 }
 
 output "prod_public_ip" {
   description = "Public IP of the PROD EC2 instance"
-  value       = aws_instance.ec2_dev.public_ip
+  value       = aws_instance.prod.public_ip
 }
 
 output "ecr_repository_url" {
