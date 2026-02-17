@@ -1,6 +1,6 @@
 # Flask CI/CD Dual Environment Deployment
 
-A simple CI/CD pipeline from flask application to deployment on 2 environments, Prod and Dev.
+A simple CI/CD pipeline, starting with flask application, then using github actions to build image, then container, then using terraform to build infra and lastly the app gets deployed to two 2 environments, Prod and Dev.
 
 <!-- STEPS
 Phase 1: Flask app running locally
