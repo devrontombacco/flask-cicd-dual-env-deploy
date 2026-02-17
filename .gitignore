@@ -3,3 +3,6 @@ __pycache__/
 *.pyc
 terraform.tfvars
 *.tfstate
+terraform/.terraform.lock.hcl
+terraform/.terraform/
+terraform/terraform.tfstate.backup

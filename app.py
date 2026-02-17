@@ -7,7 +7,7 @@ app = Flask(__name__)
 def home():
     env = os.environ.get('ENVIRONMENT', 'UNKNOWN')
     #return f"Hello from {env} environment!"
-    render_template('index.html', environment=env)
+    return render_template('index.html', environment=env)
 
 
 @app.route('/health')
