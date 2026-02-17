@@ -1,5 +1,7 @@
 # Flask CI/CD Dual Environment Deployment
 
+A simple CI/CD pipeline from flask application to deployment on 2 environments, Prod and Dev.
+
 <!-- STEPS
 Phase 1: Flask app running locally
 - write your app.py
