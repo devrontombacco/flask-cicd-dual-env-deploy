@@ -22,4 +22,26 @@ Phase 4: GitHub Actions CI/CD
 Phase 5: Full end-to-end test
 
 
+PIPELINE
+git push
+    ↓
+Checkout code
+    ↓
+Configure AWS credentials
+    ↓
+Login to ECR
+    ↓
+Build Docker image
+    ↓
+Run tests
+    ↓
+Push to ECR
+    ↓
+Deploy to DEV ──────────────────┐
+    ↓                           ↓
+Deploy to PROD            ubuntu@DEV_IP
+    ↓                     pull latest
+Done!                     run flask-dev
+                          ENVIRONMENT=DEV
+
  -->
