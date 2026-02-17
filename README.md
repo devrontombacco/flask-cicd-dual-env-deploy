@@ -152,3 +152,22 @@ flask-cicd-dual-env-deploy/
     ├── security.tf
     └── ecr.tf
 ```
+
+## 🔄 CI/CD Pipeline
+
+The pipeline automatically:
+
+1. Builds Docker image
+2. Runs health check tests
+3. Pushes to Amazon ECR
+4. Deploys to DEV environment
+5. Deploys to PROD environment
+
+## 🧹 Cleanup
+
+To destroy all resources:
+
+```bash
+cd terraform
+terraform destroy
+```
