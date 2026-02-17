@@ -14,7 +14,9 @@ This project showcases:
 
 ## Architecture
 
-[ Will Add Architecture Diagram soon ]
+![Screenshot](/docs/initial_setup.png.png)
+![Screenshot](/docs/CICD_pipeline.png.png)
+![Screenshot](/docs/flask_cicd_terraform_infra.png.png)
 
 ## Prerequisites before installation
 
