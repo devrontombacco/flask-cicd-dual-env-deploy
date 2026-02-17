@@ -171,3 +171,14 @@ To destroy all resources:
 cd terraform
 terraform destroy
 ```
+
+## License
+
+This project is open source and available under the MIT License.
+
+## Author
+
+Devron:
+
+- LinkedIn: [linkedin.com/in/devron-thompson](https://www.linkedin.com/in/devrontombacco/)
+- Github: [github.com/devrontombacco](https://github.com/devrontombacco)
