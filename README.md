@@ -131,7 +131,7 @@ DEV:  http://<dev_public_ip>:5000
 PROD: http://<prod_public_ip>:5000
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 flask-cicd-dual-env-deploy/
@@ -155,7 +155,7 @@ flask-cicd-dual-env-deploy/
     └── ecr.tf
 ```
 
-## 🔄 CI/CD Pipeline
+## CI/CD Pipeline
 
 The pipeline automatically:
 
@@ -165,7 +165,7 @@ The pipeline automatically:
 4. Deploys to DEV environment
 5. Deploys to PROD environment
 
-## 🧹 Cleanup
+## Cleanup
 
 To destroy all resources:
 
